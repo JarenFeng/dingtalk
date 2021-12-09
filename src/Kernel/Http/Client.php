@@ -133,4 +133,3 @@ class Client extends BaseClient
         return $this->request($url, 'POST', ['query' => $query, 'json' => $data]);
     }
 }
-}
